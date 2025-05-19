@@ -23,7 +23,7 @@ header {
 }
 
 .game-logo img {
-    height: 80px;
+    height: 50px;   
 }
 
 section h2 {
@@ -32,6 +32,102 @@ section h2 {
 
 header nav li {
     display: inline;
-    margin-left: 16px;
+    margin-left: 30px;
     font-size: 24px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-lists img {
+    height: 33px;
+}
+
+.brand-lists li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #182c61
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.game-pic {
+    margin-right: 32px;
+    height: 500px;
+}
+
+#feedback .container {
+    display: block;
+    margin-left: 600px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #000000D9;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61
+}
+
+footer {
+    background-color: #000000D9;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
