@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header 
+section h2
+section h3
+form button {
+    font-family: 'Times New Roman', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #000000D9;
+    color: #ecf0f1;
+}
+
+.game-logo img {
+    height: 80px;
+}
+
+section h2 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
